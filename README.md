@@ -8,14 +8,14 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🧭 Overview
+##  Overview
 
 **Kreon Labs** is a decentralized digital rights infrastructure for registering and tracking ownership of visual assets. It leverages open standards like [C2PA](https://c2pa.org/), invisible watermarking techniques, and [Story Protocol](https://storyprotocol.xyz/) to provide a tamper-evident, interoperable, and legally enforceable IP registration and enforcement workflow.
 
 <br>
 
 
-## 🧠 Core Principles
+##  Core Principles
 
 - **Trustless Provenance**: Provenance and attribution are embedded into the content itself and anchored to a public, composable protocol (Story Protocol).
 - **Tamper Evident**: Assets are embedded with digitally signed C2PA manifests and invisible watermarks that survive common transformations.
@@ -24,7 +24,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🚀 Features
+##  Features
 
 #### 1. Asset Registration
 - Accepts image uploads from creators via a frontend dashboard.
@@ -76,7 +76,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🚀 Usage Guide
+##  Usage Guide
 
 1. **Register Asset**: Upload your image through the Kreon frontend. Existing C2PA metadata (if any) is detected and extracted.
 2. **Embed Metadata**: A custom C2PA manifest is generated and embedded. Invisible watermarking is applied.
@@ -87,7 +87,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🏗️ Architecture
+## Architecture
 
 ```
         ┌──────────── Upload Asset ─────────────┐
@@ -119,7 +119,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer       | Stack / Tools                              |
 |-------------|---------------------------------------------|
@@ -132,7 +132,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 - **C2PA Manifests**: Signed manifests with cryptographic proof of authorship; supports validation against known public keys.
 - **Watermarking**: Resistant to lossy transformations (scaling, compression, cropping).
@@ -141,7 +141,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 🔌 Key Integrations
+##  Key Integrations
 
 - **Story Protocol SDK** – Registers asset metadata and attribution on-chain.
 - **IPFS** – Stores asset metadata, fingerprints, and manifests.
@@ -165,7 +165,7 @@ Claim, verify, and protect ownership of your visual assets using C2PA metadata, 
 
 <br>
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```bash
 .
